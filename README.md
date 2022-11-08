@@ -26,3 +26,11 @@ document.addEventListener(event, function, useCapture)
 * event
 * 可以是所有HTML DOM事件
 * EX: onclick、oncontextmenu、onmousedown、onmousemove、onmouseover、onmouseup
+
+* function 
+* 指定事件一定要觸發時執行的函數。。
+
+* useCapture
+* 可以是 true / false 
+
+
