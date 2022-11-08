@@ -8,8 +8,7 @@
    3.瀏覽器在下載 JS 檔案後，會自動暫存 (cache) 一份在客戶端電腦中，之後就不需要再重複下載一次，加快之後的網頁載入速度。
 
 ## 工具
-* 線上練習JS
-* JSFiddle 
+* 線上練習JS >>JSFiddle 
 
 ## Important note 
 ### addEventListener()
