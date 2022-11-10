@@ -18,6 +18,7 @@ window.addEventListener('keydown', function(){});
 ```
 * addEventListener 方法可以用來綁定元素的事件處理函數，第一個參數eventType 是事件名稱，第二個參數listener 是事件處理函數。 
 
+========================================================================
 * syntax
 ```javascript=
 document.addEventListener(event, function, useCapture)
@@ -31,5 +32,4 @@ document.addEventListener(event, function, useCapture)
 
 * useCapture
   * 可以是 true / false
-
-
+========================================================================
