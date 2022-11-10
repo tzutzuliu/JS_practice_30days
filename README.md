@@ -32,4 +32,3 @@ document.addEventListener(event, function, useCapture)
 
 * useCapture
   * 可以是 true / false
-========================================================================
