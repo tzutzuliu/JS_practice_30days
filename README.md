@@ -35,4 +35,15 @@ document.addEventListener(event, function, useCapture)
 
 
 ## Element object attribute & method
- 
+### Element object
+*  DOM Element Object .id =>element的id
+*  DOM Element Object .nodeName=>element nodename
+*  DOM Element Object.innerHTML 
+
+* syntax
+```javascript=
+document.getElementById("demo").innerHTML = "I'm Tzutzu";
+```
+```javascript=
+let html = document.getElementById("myP").innerHTML;
+```
