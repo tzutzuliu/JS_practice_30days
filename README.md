@@ -37,8 +37,8 @@ document.addEventListener(event, function, useCapture)
 ## Element object attribute & method
 ### Element object
 *  DOM Element Object .id =>element的id
-*  DOM Element Object .nodeName=>element nodename
-*  DOM Element Object.innerHTML 
+*  DOM Element Object .nodeName=>element的nodename
+*  DOM Element Object .innerHTML (寫法如下)
 
 * syntax
 ```javascript=
@@ -46,4 +46,13 @@ document.getElementById("demo").innerHTML = "I'm Tzutzu";
 ```
 ```javascript=
 let html = document.getElementById("myP").innerHTML;
+```
+*  DOM Element Object .textContent=>element.textcontent
+
+* syntax
+```javascript=
+element.textContent = "I have changed!";
+```
+```javascript=
+let text = element.textContent;
 ```
