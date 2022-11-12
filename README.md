@@ -51,7 +51,7 @@ let html = document.getElementById("myP").innerHTML;
 
 * syntax
 ```javascript=
-element.textContent = "I have changed!";
+element.textContent = "I'm Tzutzu";
 ```
 ```javascript=
 let text = element.textContent;
