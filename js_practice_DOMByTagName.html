@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS_HTMLDOMByTagName example</title>
+</head>
+<body>
+    <h3>Document.getElementsByTagName</h3>
+    <P>根據HTML標籤(tag)名稱取得所有這個標籤的元素集合，返回的結果會是一個像陣列(array)的物件</P>
+    <p>tzutzu at here</p>
+    <p>tzutzu at here</p>
+    <p>tzutzu at here</p>
+
+    <div id="div1">
+        <p>I'm tzutzu</p>
+        <p>I'm tzutzu</p>
+        <p>I'm tzutzu</p>
+
+        <div id="div2">
+            <p>I'm tzutzu</p>
+            <p>I'm tzutzu</p>
+            <p>I'm tzutzu</p>
+        </div>
+
+    </div>
+
+
+
+    <script>
+        function getAllParaElems(){
+            //取得所有<p>的元素
+                var allParas = document.getElementsByTagName('p');
+        }
+
+        function div1ParaElems(){
+            //取得div標籤底下的HTML元素
+            var div1 = document.getElementById('div1');
+            
+            //取得div1標籤底下的所有的<P>元素
+            var div1Paras = div1.getElementsByTagName('p');
+
+            //取得div1標籤底下總共有幾個<p>元素
+            var num = div1Paras.length;
+        }
+
+    </script>
+
+
+</body>
+</html>
