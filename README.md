@@ -56,3 +56,4 @@ element.textContent = "I'm Tzutzu";
 ```javascript=
 let text = element.textContent;
 ```
+
