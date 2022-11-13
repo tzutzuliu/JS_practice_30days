@@ -29,13 +29,13 @@
 
 
     <script>
-        function getAllParaElems(){
+        function getAllParaElems() {
             //取得所有<p>的元素
                 var allParas = document.getElementsByTagName('p');
         }
 
-        function div1ParaElems(){
-            //取得div標籤底下的HTML元素
+        function div1ParaElems() {
+            //取得div1標籤底下的HTML元素
             var div1 = document.getElementById('div1');
             
             //取得div1標籤底下的所有的<P>元素
@@ -43,6 +43,20 @@
 
             //取得div1標籤底下總共有幾個<p>元素
             var num = div1Paras.length;
+        }
+
+        function div2ParaElems() {
+
+            //取得div2標籤底下的HTML元素
+            var div2 = document.getElementById('div2');
+
+            //取得div2標籤底下所有的<p>元素
+            var div2Paras = div2.getElementByTagName('p');
+            
+            //取得div2標籤底下總共有幾個<p>元素
+            //div2標籤底下有3個,num = 3
+            var num = div2Paras.length;
+
         }
 
     </script>
