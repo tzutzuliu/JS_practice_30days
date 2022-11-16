@@ -77,7 +77,7 @@ let text = element.textContent;
   =>表示根節點 (Document)
 
   * Node.DOCUMENT_TYPE_NODE
-  表示 DocumentType 節點，像是<!DOCTYPE html>的文件概念意思
+  =>表示 DocumentType 節點，像是<!DOCTYPE html>的文件概念意思
 
   * Node.DOCUMENT_FRAGMENT_NODE
   => 表示 DocumentFragment 節點
