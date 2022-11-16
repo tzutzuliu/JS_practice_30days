@@ -60,3 +60,4 @@ let text = element.textContent;
 
 
 ## JavaScript DOM Node Properties (DOM 節點物件的屬性)
+### Node.nodeType
