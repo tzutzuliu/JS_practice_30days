@@ -66,3 +66,18 @@ let text = element.textContent;
 
   * Node.ELEMENT_NODE
   =>表示 HTML 元素 (Element) 節點
+
+  * Node.TEXT_NODE
+  =>表示文字 (Text) 或屬性 (Attr) 節點
+
+  * Node.COMMENT_NODE
+  =>表示註解節點 (Comment)
+
+  * Node.DOCUMENT_NODE
+  =>表示根節點 (Document)
+
+  * Node.DOCUMENT_TYPE_NODE
+  表示 DocumentType 節點，像是<!DOCTYPE html>的文件概念意思
+
+  * Node.DOCUMENT_FRAGMENT_NODE
+  => 表示 DocumentFragment 節點
