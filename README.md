@@ -64,10 +64,9 @@ let text = element.textContent;
 * nodeType 屬性可以取得該節點的類型，像是 elements (元素節點), text (文字節點) 或 comments (註解節點)。
 * DOM 還有這些常數,就是 (Node type constants)，幫助判斷節點類型
 
-    |常數名稱||備註說明|
-    |Node.ELEMENT_NODE||表示 HTML 元素 (Element) 節點，像是 <p> 或 <div>|
-    |Node.TEXT_NODE||帳號|
-    |Node.COMMENT_NODE||--|
-    |Node.DOCUMENT_NODE||--|
-    |Node.DOCUMENT_TYPE_NODE||--|
-    |Node.DOCUMENT_FRAGMENT_NODE	||--|
+>>Node.ELEMENT_NODE
+  Node.TEXT_NODE
+  Node.COMMENT_NODE
+  Node.DOCUMENT_NODE
+  Node.DOCUMENT_TYPE_NODE
+  Node.DOCUMENT_FRAGMENT_NODE
