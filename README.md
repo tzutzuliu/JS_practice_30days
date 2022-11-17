@@ -81,3 +81,6 @@ let text = element.textContent;
 
   * Node.DOCUMENT_FRAGMENT_NODE
   => 表示 DocumentFragment 節點
+
+========================================================================
+
