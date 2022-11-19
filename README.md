@@ -84,3 +84,5 @@ let text = element.textContent;
 
 ========================================================================
 
+* NodeList 物件是節點的集合，可藉由 Node.childNodes 屬性或 document.querySelectorAll() 等方法取得。 
+* NodeList 雖然有著與陣列相似的特性，但不是陣列，所以也不會有陣列相關的 method 可以使用 (如 map、filter 等)。
