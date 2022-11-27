@@ -15,7 +15,7 @@
     transition-timing-function: cubic-bezier(.29, 1.01, 1, -0.68);
     ```
 
-### Document.querySelector 
+### Document.querySelector syntax
 
 ```css
     element = document.querySelector(selectors);
