@@ -34,3 +34,7 @@
 setInterval(function(){ alert("Hello tzu"); }, 1000); 
 ```
 * 每1秒（1000 毫秒）弹出 "Hello tzu" 的意思
+
+* syntax
+* setInterval(code, milliseconds);
+* setInterval(function, milliseconds, param1, param2, ...)
