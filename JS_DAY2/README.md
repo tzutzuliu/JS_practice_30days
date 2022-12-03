@@ -26,7 +26,4 @@
 * transition-duration:轉換需要的時間，預設0，單位為s或ms
 * transition-delay:延遲多久轉換，預設0，單位為s或ms
 * transition-timing-function:轉換時的速度曲線，預設ease
-
-
-
-
+==================================================================
