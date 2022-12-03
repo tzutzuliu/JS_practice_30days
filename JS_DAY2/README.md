@@ -30,4 +30,7 @@
 
 ### setInterval() 方法
 * syntax
+```javascript=
+setInterval(function(){ alert("Hello"); }, 3000);
+```
 
