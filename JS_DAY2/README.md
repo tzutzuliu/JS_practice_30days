@@ -31,6 +31,6 @@
 ### setInterval() 方法
 * syntax
 ```javascript=
-setInterval(function(){ alert("Hello"); }, 3000);
+setInterval(function(){ alert("Hello tzu"); }, 1000); 
 ```
-
+* 每1秒（1000 毫秒）弹出 "Hello tzu" 的意思
