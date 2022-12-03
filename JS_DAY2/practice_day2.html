@@ -10,6 +10,18 @@
 
     <p>顯示現在時間</p>
     <p id = "tzu"></p>
+
+
+    <script>
+        var myVar = setInterval(function(){ myTimer() }, 1000);
+
+        function myTimer() {
+            var d = new Date();
+            var t = d.toLocaleTimeString();
+            document.getElementById("tzu").innerHTML = t;
+        }
+
+    </script>
     
 </body>
 </html>
