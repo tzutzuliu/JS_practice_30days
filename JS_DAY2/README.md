@@ -5,7 +5,7 @@
     ```css
     transform-origin(0, 0); 
     ```
-    * 註：從物件的左上角開始
+    * 註：是從物件的左上角開始
 
 2. transform: 設定物件的變形種類
     常用包括translate(位移)、scale(縮放)、rotate(旋轉)、skew(傾斜)等，還有結合 scale、skew、translate 的 matrix(scale X, scale Y, skew X, skew Y, move X, move Y)
