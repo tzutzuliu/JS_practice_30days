@@ -38,3 +38,4 @@ setInterval(function(){ alert("Hello tzu"); }, 1000);
 * syntax
 * setInterval(code, milliseconds);
 * setInterval(function, milliseconds, param1, param2, ...)
+==================================================================
